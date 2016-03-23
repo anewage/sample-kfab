@@ -1,0 +1,756 @@
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Bold-web.eot');
+
+    src: url('../fonts/IRANSans-Bold-web.eot?#iefix') format('eot'),  /* IE6�8 */
+    url('../fonts/IRANSans-Bold-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Bold-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-Bold-web.ttf') format('ttf');
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Medium-web.eot');
+
+    src: url('../fonts/IRANSans-Medium-web.eot?#iefix') format('eot'),  /* IE6�8 */
+    url('../fonts/IRANSans-Medium-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Medium-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-Medium-web.ttf') format('ttf');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-UltraLight-web.eot');
+
+    src: url('../fonts/IRANSans-UltraLight-web.eot?#iefix') format('eot'),  /* IE6�8 */
+    url('../fonts/IRANSans-UltraLight-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-UltraLight-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-UltraLight-web.ttf') format('ttf');
+    font-weight: 200;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-Light-web.eot');
+
+    src: url('../fonts/IRANSans-Light-web.eot?#iefix') format('eot'),  /* IE6�8 */
+    url('../fonts/IRANSans-Light-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-Light-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-Light-web.ttf') format('ttf');
+    font-weight: 300;
+}
+
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/IRANSans-web.eot');
+
+    src: url('../fonts/IRANSans-web.eot?#iefix') format('eot'),  /* IE6�8 */
+    url('../fonts/IRANSans-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+    url('../fonts/IRANSans-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/IRANSans-web.ttf') format('ttf');
+    font-weight: normal;
+}
+
+body {
+
+    margin:0;
+
+    padding:0;
+
+    background-color:#FFFFFF;
+
+    font-family: 'IRANSans-web' ,"Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+
+    font-size:13px;
+
+    font-weight:normal !important;
+
+    color:#000000;
+
+    line-height:150%;
+
+}
+
+/*	text-align:center;*/
+
+p{
+
+    text-align:left
+
+}
+
+
+
+img {
+
+    border:0;
+
+}
+
+
+
+.clear {
+
+    clear:both;
+
+    overflow:hidden;
+
+}
+
+
+
+.produktruta {
+
+    float:right;
+
+    width:90px;
+
+    height:103px;
+
+    overflow:hidden;
+
+    margin:5px;
+
+    padding:5px;
+
+
+
+    text-align:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* LAYOUT
+
+-------------------------------------------*/
+
+#topp, #topp_lampor {
+
+    margin:auto;
+
+    height:200px;
+
+    overflow:hidden;
+
+}
+
+
+
+#topp {
+
+    background-image:url(../images/bkg_topp.png);
+
+    background-repeat:repeat-x;
+
+    background-color:#FFFFFF;
+
+    margin-bottom:30px;
+
+}
+
+
+
+#topp_lampor {
+
+    margin:auto;
+
+    background-image:url(../images/bkg_topp_lampor.png);
+
+    width:1000px;
+
+    text-align:left;
+
+}
+
+
+
+#topp_vanster, #topp_mitten, #topp_hoger {
+
+    float:left;
+
+}
+
+
+
+#topp_vanster {
+
+    width:214px;
+
+    padding-top:20px;
+
+    text-align:right;
+
+    margin-right:86px;
+
+}
+
+
+
+#topp_mitten {
+
+    width:400px;
+
+    vertical-align:bottom;
+
+    height:40px;
+
+    padding-top:120px;
+
+}
+
+
+
+#topp_hoger {
+
+    width:300px;
+
+    text-align:right;
+
+    height:140px;
+
+    padding-top:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SIDINNEHÃ…LL
+
+-------------------------------------------*/
+
+#innehall {
+
+    margin:auto;
+
+    width:1000px;
+
+    text-align:left;
+
+    clear:both;
+
+
+
+    background-repeat:no-repeat;
+
+    background-position:bottom left;
+
+    min-height:500px;
+
+}
+
+/*background-image:url(/images/lampor_nere_vanster.png);*/
+
+
+
+
+
+#innehall_vanster, #innehall_hoger {
+
+    float:right;
+
+}
+
+
+
+#innehall_vanster {
+
+    margin-right:30px;
+
+    margin-left:100px;
+
+    width:140px;
+
+}
+
+
+
+#innehall_hoger {
+
+    width:700px;
+
+}
+
+
+
+.innehall_hoger_kol1, .innehall_hoger_kol2 {
+
+    float:right;
+
+    width:330px;
+
+}
+
+
+
+.innehall_hoger_kol1 {
+
+    margin-right:40px;
+
+    direction: rtl;
+
+    text-align: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FORMATERINGAR
+
+-------------------------------------------*/
+
+
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+
+    font-family: 'IRANSans-web' , "Myriad Pro", Arial, Helvetica, sans-serif;
+
+    direction: rtl;
+
+    text-align: right;
+
+    color:#000000;
+
+    line-height:normal;
+
+
+
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+
+    width:100%;
+
+    border-bottom:1px #CCCCCC dotted;
+
+    text-transform:uppercase;
+
+}
+
+
+
+h1, .h1 {
+
+    font-size:2.5em;
+
+}
+
+
+
+h2, .h2 {
+
+    font-size:2em;
+
+}
+
+
+
+h3, .h3 {
+
+    font-size:1.8em;
+
+}
+
+
+
+h4, .h4 {
+
+    font-size:1.5em;
+
+    padding-bottom:5px;
+
+}
+
+
+
+h5, .h5 {
+
+    font-size:1.4em;
+
+}
+
+
+
+h6, .h6 {
+
+    font-size:1.3em;
+
+}
+
+
+
+.small {
+
+    font-size:0.85em;
+
+}
+
+
+
+
+
+.ThumbName {
+
+
+
+    margin-top:5px;
+
+    margin-bottom:0;
+
+    text-align:center;
+
+
+
+}
+
+
+
+
+
+/* LÃ„NKAR
+
+-------------------------------------------*/
+
+a:link, a:visited {
+
+    color:#2E4954;
+
+    text-decoration: none;
+
+}
+
+
+
+a:hover {
+
+    color: #538599 ;
+
+    text-decoration: underline;
+
+}
+
+
+
+a.meny1:link, a.meny1:visited, a.meny1:hover, a.meny2:link, a.meny2:visited, a.meny2:hover {
+
+    text-decoration: none;
+
+}
+
+
+
+a.meny1:link, a.meny1:visited {
+
+    color: #333333;
+
+}
+
+
+
+a.meny2:link, a.meny2:visited {
+
+    color: #000000;
+
+    padding-left:10px;
+
+    margin-bottom:6px;
+
+    font-size:0.9em;
+
+    line-height:1.8em;
+
+}
+
+
+
+a.meny3:link, a.meny3:visited {
+
+    color: #000000;
+
+    padding-left:20px;
+
+    font-size:0.9em;
+
+    line-height:1.8em;
+
+}
+
+
+
+
+
+a.meny1:hover, a.meny2:hover, a.meny3:hover {
+
+    color: #5D1B42;
+
+}
+
+
+
+
+
+
+
+
+
+/* EFFEKTER
+
+-------------------------------------------*/
+
+.ruta_runda_horn {
+
+    border-radius: 5px;
+
+    -moz-border-radius: 5px;
+
+    -webkit-border-radius: 5px;
+
+    background-color:#E6E6E6;
+
+    width:100%;
+
+}
+
+
+
+.ruta_runda_horn_innehall {
+
+    direction: rtl;
+
+    text-align: right;
+
+    padding:20px;
+
+}
+
+
+
+.skickaknapp{
+
+    -moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+
+    -webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+
+    background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+
+    background-color:#ededed;
+
+    -moz-border-radius:6px;
+
+    -webkit-border-radius:6px;
+
+    border-radius:6px;
+
+    border:1px solid #dcdcdc;
+
+    display:inline-block;
+
+    color:#777777;
+
+    font-weight:bold;
+
+    padding:3px 12px;
+
+    text-decoration:none;
+
+    text-shadow:1px 1px 0px #ffffff;
+
+}.classname:hover {
+
+     background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+
+     background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+
+     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+
+     background-color:#dfdfdf;
+
+ }.classname:active {
+
+      position:relative;
+
+      top:1px;
+
+  }
+
+
+
+
+
+
+
+
+
+/* MENY
+
+-------------------------------------------*/
+
+.meny, .meny_aktiv, .meny_aktiv2 {
+
+    border-top:1px #E6E6E6 dashed;
+
+    width:100%;
+
+    padding:5px 3px;
+
+    margin:0;
+
+    line-height:normal;
+
+}
+
+
+
+#innehall_vanster p {
+
+    margin:0;
+
+    direction: rtl;
+
+    text-align: right;
+
+}
+
+
+
+.meny_aktiv {
+
+    background: #E6E6E6; /* Gamla webblÃ¤sare */
+
+    background: -moz-linear-gradient(left,  #FFFFFF 0%, #E6E6E6 100%); /* FF3.6+ */
+
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#FFFFFF), color-stop(100%,#E6E6E6)); /* Chrome,Safari4+ */
+
+    background: -webkit-linear-gradient(left,  #FFFFFF 0%,#E6E6E6 100%); /* Chrome10+,Safari5.1+ */
+
+    background: -o-linear-gradient(left,  #FFFFFF 0%,#E6E6E6 100%); /* Opera 11.10+ */
+
+    background: -ms-linear-gradient(left,  #FFFFFF 0%,#E6E6E6 100%); /* IE10+ */
+
+    background: linear-gradient(to right,  #FFFFFF 0%,#E6E6E6 100%); /* W3C */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#E6E6E6',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+
+.meny_aktiv2 {
+
+    background: #A7985E; /* Gamla webblÃ¤sare */
+
+    background: -moz-linear-gradient(left,  #FFFFFF 0%, #A7985E 100%); /* FF3.6+ */
+
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,#FFFFFF), color-stop(100%,#A7985E)); /* Chrome,Safari4+ */
+
+    background: -webkit-linear-gradient(left,  #FFFFFF,#A7985E); /* Chrome10+,Safari5.1+ */
+
+    background: -o-linear-gradient(left,  #FFFFFF 0%,#A7985E 100%); /* Opera 11.10+ */
+
+    background: -ms-linear-gradient(left,  #FFFFFF 0%,#A7985E 100%); /* IE10+ */
+
+    background: linear-gradient(to right,  #FFFFFF 0%,#A7985E 100%); /* W3C */
+
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#A7985E',GradientType=1 ); /* IE6-9 */
+
+}
+
+
+
+
+
+
+
+/* these styles are for the demo, but are not required for the plugin */
+
+.zoom {
+
+    display:inline-block;
+
+    position: relative;
+
+}
+
+
+
+/* magnifying glass icon */
+
+.zoom:after {
+
+    content:'';
+
+    display:block;
+
+    width:33px;
+
+    height:33px;
+
+    position:absolute;
+
+    top:0;
+
+    right:0;
+
+    /*background:url(icon.html);*/
+
+}
+
+
+
+.zoom img {
+
+    display: block;
+
+}
+
+
+
+.zoom img::selection { background-color: transparent; }
+
+
+
+
+
