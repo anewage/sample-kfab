@@ -55,9 +55,9 @@
             <div id="products">
 
                 <div class="produktruta" style="text-align: center;">
-                    <a href="http://k-fab.eu/ProductHighslide.asp?sku=66536" onclick="return hs.htmlExpand(this, { objectType: 'iframe', width:800 } )">
+                    <a href="Highslide.asp?sku=66536" onclick="return hs.htmlExpand(this, { objectType: 'iframe', width:800 } )">
 
-                        <img src="/userfiles/ProductImages/Thumbs/66536_2016-01-03_15-39-30.jpg" border="0" />
+                        <img src="http://k-fab.eu/userfiles/ProductImages/Thumbs/66536_2016-01-03_15-39-30.jpg" border="0" />
 
                         <div class="clearfix"></div>
                         <p class="ThumbName">Carling</p>
