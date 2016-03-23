@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('sample1', function () {
+    return view('pages.sample1');
+});
+
 Route::group(['middleware' => ['web']], function () {
 
     Route::get('/', function () {
